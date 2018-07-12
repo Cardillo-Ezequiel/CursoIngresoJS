@@ -1,13 +1,14 @@
-function Mostrar()
+function mostrar()
 {
-	var edad
-//tomo la edad
-edad=parseInt(document.getElementById('edad').value);
+//tomo la edad  
+	var edad;
 
-if (edad>=13&&edad<=17) {
-	alert("Sos adolecente");
-}  
+	edad=document.getElementById('edad').value;
 
+	if (edad>=13&&edad<=17) 
+	{
+		alert("Eres adolescente");
+	}
 
 
 }//FIN DE LA FUNCIÓN
