@@ -1,22 +1,19 @@
-function Mostrar()
+function mostrar()
 {
 
 	var contador=0;
 	var acumulador=0;
-	var numero;
-	var iteraciones=5;
-	var promedio;
-	while(contador<iteraciones)
+
+	//acumulador=prompt("ingrese un numero");
+	//acumulador=parseInt(acumulador);
+	while(contador<5)
 	{
-		contador=contador+1;
-		numero=prompt("ingrese numero");
-		numero=parseInt(numero);
-		acumulador=acumulador+numero;
+		contador++;
+		acumulador=acumulador+parseInt(prompt("ingrese el numero"));
 	}
-	promedio=acumulador/contador;
 
 
 	document.getElementById('suma').value=acumulador;
-	document.getElementById('promedio').value=acumulador/contador;
+	document.getElementById('promedio').value=acumulador/5;
 
 }//FIN DE LA FUNCIÓN

@@ -1,16 +1,13 @@
-function Mostrar()
+function mostrar()
 {
 	//alert('iteración while');
 	var contador;
-
 	contador=10;
 
 	while(contador>0)
 	{
-		document.write("<br>"+contador);
+		console.log("numero: "+contador);
 		contador--;
 	}
-
-
-
+	console.log(contador);
 }//FIN DE LA FUNCIÓN
